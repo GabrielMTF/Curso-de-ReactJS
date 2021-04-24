@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculando a media</title>
+    <script src="script.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="explain">
+        <h1>Bem vindos</h1>
+        <p> Nesta rápida aplicação será calculada a média do aluno conforme a seguinte operação matématica.Em que cada
+            nota terá o peso relativo ao seu semestre, e divida por 10 ao final. A média para a aprovação do aluno é 6.</p>
+        <p>(N1 + N2*2 + N3*3 + N4*4) / 10</p>
+        <p>obs: Se os campos das notas forem deixados em branco, será considerado nota de valor 0.</p>
+        <table>
+
+            <tr class="clear">
+                <th>Variável</th>
+                <th>Representação</th>
+                <th>Peso</th>
+            </tr>
+            <tr class="dark">
+                <td>N1</td>
+                <td>Nota do primeiro semestre</td>
+                <td>Peso 1</td>
+            </tr>
+            <tr class="clear">
+                <td>N2</td>
+                <td>Nota do segundo semestre</td>
+                <td>Peso 2</td>
+            </tr>
+            <tr class="dark">
+                <td>N3</td>
+                <td>Nota do terceiro semestre</td>
+                <td>Peso 3</td>
+            </tr>
+            <tr class="clear">
+                <td>N4</td>
+                <td>Nota do quarto semestre</td>
+                <td>Peso 4</td>
+            </tr>
+
+        </table>
+
+    </div>
+    <div id="program">
+
+        Nota 1º Semestre: <input type="number" name="n1" id="n1" max="10" min="0"><br>
+        Nota 2º Semestre: <input type="number" name="n2" id="n2" max="10" min="0"><br>
+        Nota 3º Semestre: <input type="number" name="n3" id="n3" max="10" min="0"><br>
+        Nota 4º Semestre: <input type="number" name="n4" id="n4" max="10" min="0"><br><br>
+        <input type="button" value="Calcular media" onclick="calcular()">
+        <br><br>
+        <div id="res">
+            Resultado...
+        </div>
+    </div>
+    <footer>
+        <p><a href="https://www.linkedin.com/in/gabriel-mota-033528206/" target="_blank">Linkedin</a></p>
+        <p><a href="https://github.com/GabrielMTF" target="_blank">GitHub</a></p>
+    </footer>
+
+
+</body>
+
+</html>
