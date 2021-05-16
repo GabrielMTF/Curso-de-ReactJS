@@ -1,0 +1,25 @@
+.container {
+    background-color: rgb(156, 2, 170);
+    justify-content: center;
+    align-items: center;
+    border: solid rgb(156, 2, 170) 1px;
+    border-radius: 10px;
+    border-style: none;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 25px;
+    box-shadow: 2px 2px 2px white;
+}
+.img {
+    width:350px ;
+    height: 350px;
+}
+.text {
+    font-style:italic;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-bottom: 10px;
+}
+.titulo {
+    color: rgb(255, 255, 255);
+}

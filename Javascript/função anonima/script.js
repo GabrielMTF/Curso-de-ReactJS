@@ -1,7 +1,7 @@
 function calcular(...numeros) {
         let total = numeros.reduce((total, proximo) => { 
             return total + proximo; 
- //esse código é chamado de função anônimo por causa da setinho, substituindo a palavra function que foi usada anteriormente.
+ //esse código é chamado de função anônima por causa da setinho, substituindo a palavra function que foi usada anteriormente.
         });
 
         console.log(total);
